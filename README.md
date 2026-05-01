@@ -17,3 +17,17 @@ Supports multi-brand online stores, personalized shopping agents, dynamic LLM ro
 
 
 ![Agentic_ECommerce](https://github.com/user-attachments/assets/58d06240-a132-4ccb-9bfb-6af9249faa32)
+
+# Run the Demo (Azure)
+
+This repo includes a runnable Next.js demo under `azure-demo/`.
+
+1) Configure env at the repo root (`.env.local`), then sync:
+
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\sync-azure-demo-env.ps1`
+
+2) Run the demo:
+
+- `cd azure-demo`
+- `npm install`
+- `npm run dev`

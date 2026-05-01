@@ -1,0 +1,12 @@
+# Local env / secrets
+.env
+.env.local
+
+# Next.js demo
+azure-demo/.next/
+azure-demo/node_modules/
+azure-demo/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
